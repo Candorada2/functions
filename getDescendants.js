@@ -1,4 +1,4 @@
-export function getDescendants(obj){
+function getDescendants(obj){
   var d = new Array()
 function temp(tempObj){
     if(tempObj?.children.length > 0){
